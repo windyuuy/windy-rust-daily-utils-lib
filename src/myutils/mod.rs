@@ -7,12 +7,14 @@ pub fn is_same<T>(a: &T, b: &T) -> bool {
   return ret;
 }
 
-#[test]
-mod test{
+#[cfg(test)]
+mod tests{
+
+	use super::is_same;
 
 	struct A{
 
-	};
+	}
 
 	#[test]
 	fn test_is_same(){
