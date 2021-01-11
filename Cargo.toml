@@ -1,6 +1,6 @@
 [package]
 name = "windy-daily-utils-lib"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["windy <kugoo11v12@126.com>"]
 description = "A daily utils lib for me."
 edition = "2018"
